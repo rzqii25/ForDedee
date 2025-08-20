@@ -5,13 +5,13 @@ const text = `Fatih punya sesuatu buat dedeeee tolongg dibukaa yaa sayanggku cin
 title.style.display = 'flex'
 title.style.flexWrap = 'wrap'
 title.style.justifyContent = 'center'
-title.style.gap = '0.5rem'
+title.style.gap = '0.1rem'
 
 for (let index = 0; index < text.length; index++) {
   if (text[index] !== ' ') {
     title.innerHTML += `<span>${text[index]}</span>`
   } else {
-    title.innerHTML += `<span style='width: 1rem'></span>`
+    title.innerHTML += `<span style='width: 0.5rem'></span>`
   }
 }
 
