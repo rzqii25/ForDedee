@@ -1,17 +1,17 @@
 const title = document.querySelector('.title')
-const text = `Fatih punya sesuatu buat dedeeee tolongg dibukaa yaa sayanggku cintaku cantikkuuu`.split('')
+const text = `AKU PUNYA SESUATU BUAT KAMUU TOLONGG DIBUKAA YAA CANTIKKUUUU 🤍🤍`.split('')
 
 // Create container for better responsive layout
 title.style.display = 'flex'
 title.style.flexWrap = 'wrap'
 title.style.justifyContent = 'center'
-title.style.gap = '0.1rem'
+title.style.gap = '0.5rem'
 
 for (let index = 0; index < text.length; index++) {
   if (text[index] !== ' ') {
     title.innerHTML += `<span>${text[index]}</span>`
   } else {
-    title.innerHTML += `<span style='width: 0.5rem'></span>`
+    title.innerHTML += `<span style='width: 1rem'></span>`
   }
 }
 
